@@ -1164,7 +1164,6 @@ nav {
     border-right: 10px solid transparent;
     top: -10px;
     left: -10px;
-    transition: 2s;
 }
 
 .box1::after {
@@ -1178,7 +1177,6 @@ nav {
     border-left: 10px solid transparent;
     right: -10px;
     bottom: -10px;
-    transition: 2s;
 }
 
 .box2 {
@@ -1204,7 +1202,6 @@ nav {
     border-right: 10px solid transparent;
     top: -10px;
     left: -10px;
-    transition: 2s;
 }
 
 .box2::after {
@@ -1218,7 +1215,6 @@ nav {
     border-left: 10px solid transparent;
     right: -10px;
     bottom: -10px;
-    transition: 2s;
 }
 
 .box3 {
@@ -1244,7 +1240,6 @@ nav {
     border-right: 10px solid transparent;
     top: -10px;
     left: -10px;
-    transition: 2s;
 }
 
 .box3::after {
@@ -1259,6 +1254,22 @@ nav {
     right: -10px;
     bottom: -10px;
     transition: 2s;
+}
+
+.box1:hover::before,
+.box2:hover::before,
+.box3:hover::before {
+    width: 100%;
+    height: 100%;
+    transition: .5s;
+}
+
+.box1:hover::after,
+.box2:hover::after,
+.box3:hover::after {
+    width: 100%;
+    height: 100%;
+    transition: .5s;
 }
 
 .user {
@@ -1287,38 +1298,6 @@ nav {
     color: #fff;
     box-shadow: 0px 0px 20px #f39644;
 }
-
-.box1:hover::before {
-    width: 382px;
-    height: 195px;
-}
-
-.box1:hover::after {
-    width: 382px;
-    height: 195px;
-}
-
-.box2:hover::before {
-    width: 382px;
-    height: 195px;
-}
-
-.box2:hover::after {
-    width: 382px;
-    height: 195px;
-}
-
-.box3:hover::before {
-    width: 382px;
-    height: 195px;
-}
-
-.box3:hover::after {
-    width: 382px;
-    height: 195px;
-}
-
-
 
 @media(max-width:768px) {
     .boxes {
