@@ -56,7 +56,7 @@ li:hover {
     color: #f36944;
     transition: 1s;
     cursor: pointer;
-} 
+}
 
 button.login:hover {
     background-color: #f39644;
@@ -77,18 +77,19 @@ button.login:hover {
 
 /* Blink Animation */
 
-.blink{
+.blink {
     animation: blink 1s infinite ease-in-out;
-} 
+}
 
 @keyframes blink {
-    0%{
+    0% {
         filter: drop-shadow(0px 0px 10px rgb(238, 247, 238));
     }
-    100%{
+
+    100% {
         filter: drop-shadow(0px 0px 10px rgb(121, 255, 31));
     }
-} 
+}
 
 
 li {
@@ -178,14 +179,12 @@ nav {
     }
 }
 
-@media screen and (max-width:768px) {
+@media screen and (max-width:1024px) {
     .nav-links {
-        /* display: none;  */
         position: fixed;
         top: 15vh;
         right: 0;
         flex-direction: column;
-        /* width: 80%; */
         height: 80vh;
         background-color: rgba(0, 0, 0, 0.486);
         transform: translateX(100%);
@@ -273,7 +272,7 @@ nav {
     padding: 10px;
 }
 
-@media(max-width:768px) {
+@media(max-width:1024px) {
     .content {
         font-size: 15px;
     }
@@ -369,7 +368,7 @@ nav {
 }
 
 
-@media(max-width:768px) {
+@media(max-width:1024px) {
     .card1 {
         margin-left: 0px;
     }
@@ -412,7 +411,7 @@ nav {
 }
 
 
-.cont {    
+.cont {
     flex: 50%;
     display: flex;
     flex-direction: column;
@@ -436,8 +435,8 @@ nav {
     color: #fff;
 }
 
-@media(max-width:768px) {
-    
+@media(max-width:1024px) {
+
     .details {
         flex: 100%;
         flex-direction: column;
@@ -602,7 +601,7 @@ nav {
     box-shadow: 0px 0px 20px rgb(243, 5, 85);
 }
 
-@media(max-width:768px) {
+@media(max-width:1024px) {
 
     .types {
         flex: 100%;
@@ -714,7 +713,7 @@ nav {
     outline: none;
 }
 
-@media(max-width:768px) {
+@media(max-width:1024px) {
 
     .for {
         padding: 0;
@@ -759,7 +758,7 @@ nav {
 
 /* media query */
 
-@media(max-width:768px) {
+@media(max-width:1024px) {
     .side {
         flex-direction: column;
     }
@@ -845,7 +844,7 @@ nav {
     border: 1px solid #f36944;
 }
 
-@media(max-width:768px) {
+@media(max-width:1024px) {
     .userm input {
         width: 100%;
     }
@@ -1001,7 +1000,7 @@ nav {
 }
 
 
-@media(max-width:768px) {
+@media(max-width:1024px) {
 
     .menus {
         width: 100%;
@@ -1110,7 +1109,7 @@ nav {
 }
 
 
-@media(max-width:768px) {
+@media(max-width:1024px) {
     .foot {
         flex: 100%;
 
@@ -1253,7 +1252,15 @@ nav {
     border-left: 10px solid transparent;
     right: -10px;
     bottom: -10px;
-    transition: 2s;
+}
+
+.user {
+    position: absolute;
+    top: -37px;
+    padding: 20px;
+    background-color: black;
+    color: #fff;
+    box-shadow: 0px 0px 20px #f39644;
 }
 
 .box1:hover::before,
@@ -1270,15 +1277,6 @@ nav {
     width: 100%;
     height: 100%;
     transition: .5s;
-}
-
-.user {
-    position: absolute;
-    top: -37px;
-    padding: 20px;
-    background-color: black;
-    color: #fff;
-    box-shadow: 0px 0px 20px #f39644;
 }
 
 .location {
@@ -1299,7 +1297,8 @@ nav {
     box-shadow: 0px 0px 20px #f39644;
 }
 
-@media(max-width:768px) {
+
+@media(max-width:1024px) {
     .boxes {
         flex: 100%;
         flex-direction: column;
@@ -1321,6 +1320,32 @@ nav {
         width: 100%;
         height: 100%;
     }
+
+    .box1:hover::after {
+        width: 100%;
+        height: 100%;
+    }
+
+    .box2:hover::before {
+        width: 100%;
+        height: 100%;
+    }
+
+    .box2:hover::after {
+        width: 100%;
+        height: 100%;
+    }
+
+    .box3:hover::before {
+        width: 100%;
+        height: 100%;
+    }
+
+    .box3:hover::after {
+        width: 100%;
+        height: 100%;
+    }
+}
 
 .copyrights-footer {
     background: linear-gradient(45deg, #2b2860, #5d1747, #FF8702FC) !important;
@@ -1426,7 +1451,7 @@ nav {
     color: rgb(255, 255, 255);
 }
 
-@media (max-width:768px) {
+@media (max-width:1024px) {
     .designer {
         flex: 100%;
     }
