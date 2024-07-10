@@ -179,7 +179,7 @@ nav {
     }
 }
 
-@media screen and (max-width:800px) {
+@media screen and (max-width:768px) {
     .nav-links {
         position: fixed;
         top: 15vh;
@@ -272,7 +272,7 @@ nav {
     padding: 10px;
 }
 
-@media(max-width:800px) {
+@media(max-width:768px) {
     .content {
         font-size: 15px;
     }
@@ -368,7 +368,7 @@ nav {
 }
 
 
-@media(max-width:800px) {
+@media(max-width:768px) {
     .card1 {
         margin-left: 0px;
     }
@@ -435,7 +435,7 @@ nav {
     color: #fff;
 }
 
-@media(max-width:800px) {
+@media(max-width:768px) {
 
     .details {
         flex: 100%;
@@ -601,7 +601,7 @@ nav {
     box-shadow: 0px 0px 20px rgb(243, 5, 85);
 }
 
-@media(max-width:800px) {
+@media(max-width:768px) {
 
     .types {
         flex: 100%;
@@ -713,7 +713,7 @@ nav {
     outline: none;
 }
 
-@media(max-width:800px) {
+@media(max-width:768px) {
 
     .for {
         padding: 0;
@@ -758,7 +758,7 @@ nav {
 
 /* media query */
 
-@media(max-width:800px) {
+@media(max-width:768px) {
     .side {
         flex-direction: column;
     }
@@ -844,7 +844,7 @@ nav {
     border: 1px solid #f36944;
 }
 
-@media(max-width:800px) {
+@media(max-width:768px) {
     .userm input {
         width: 100%;
     }
@@ -1000,7 +1000,7 @@ nav {
 }
 
 
-@media(max-width:800px) {
+@media(max-width:768px) {
 
     .menus {
         width: 100%;
@@ -1109,7 +1109,7 @@ nav {
 }
 
 
-@media(max-width:800px) {
+@media(max-width:768px) {
     .foot {
         flex: 100%;
 
@@ -1298,7 +1298,7 @@ nav {
 }
 
 
-@media(max-width:800px) {
+@media(max-width:768px) {
     .boxes {
         flex: 100%;
         flex-direction: column;
@@ -1451,7 +1451,7 @@ nav {
     color: rgb(255, 255, 255);
 }
 
-@media (max-width:800px) {
+@media (max-width:768px) {
     .designer {
         flex: 100%;
     }
